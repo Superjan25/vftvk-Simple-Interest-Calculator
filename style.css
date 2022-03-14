@@ -1,4 +1,51 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+    background-color:black;
+    font-family:arial;
+    color:white;
+}
 
+h1{
+    color:grey;
+    font-family:verdana;
+}
 
+.maindiv{
+    background-color:white;
+    color:black;
+    width:490px;
+    padding:20px;
+    border-radius:25px;
+    margin:auto;
+}
+
+/* indent input labels */
+.form{
+    margin-left:85px;
+    line-height: 2.2;
+}
+
+/* indent input fields so they are aligned */
+#principal{
+    margin-left:60px;
+    width: 150px;
+}
+
+#rate{
+    margin-left:24px;
+    width:130px;
+}
+
+#years{
+    margin-left:28px;
+}
+
+/* format the result section and highlight numbers */
+.result{
+    margin-left:85px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.highlight{
+    background-color: yellow;
+}
